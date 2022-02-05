@@ -1,0 +1,105 @@
+/*
+The width and height properties include the content, padding, and border, but do not include the margin.
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://ensia.com/wp-content/uploads/2018/01/Voices_Arts_main-760x378.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  color: #f2f2f2;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+header {
+  background: url("https://images.unsplash.com/photo-1532153268424-75fc7e31b665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
+  color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+h1 {
+  line-height: 1.5;
+}
+
+#header-img {
+  width: 30px;
+  height: 25px;
+}
+
+form {
+  background: #8d7865;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.asterisk {
+  color: #720000;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#phone-label,
+#dropdown-age,
+#resources,
+#gender,
+#interests,
+#add-comments,
+#submit {
+  margin-top: 20px;
+}
+
+#name,
+#email,
+#number,
+#phone,
+#dropdown {
+  padding: 10px;
+  border: none;
+}
+
+textarea {
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.resources-btn {
+  padding: 10px;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+  margin: 10px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin: 10px;
+}
+
+#submit {
+  padding: 10px;
+  background: #268e5e;
+  color: #f2f2f2;
+  font-weight: bold;
+}
